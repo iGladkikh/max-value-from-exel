@@ -23,6 +23,7 @@ GET /api/parser
 
 Принимает файл Excel .xlsx, содержащий в каждой строке первого столбца челые числа, 
 и позицию искомого максимального значения.
+<br>Пример файла - tmp/sample.xlsx
 
 ### Open api:
 Интерфейс swagger доступен по адресу: http://localhost:8080/swagger-ui/index.html
