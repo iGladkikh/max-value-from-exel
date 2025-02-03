@@ -1,0 +1,7 @@
+services:
+  exel-parser:
+    build: .
+    image: igladkikh/exel-parser:1.0
+    container_name: parser-app
+    ports:
+      - '8080:8080'
